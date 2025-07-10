@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: left;  
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(100, 237, 155);
+    box-shadow: 0 2px 5px black;
+}
+.a{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.a:hover{
+    background-color: rgb(252, 255, 253);
+}
+.b{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.b:hover{
+    background-color: rgb(252, 255, 253);
+}
+.c{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.c:hover{
+    background-color: rgb(252, 255, 253);
+}
+.d{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.d:hover{
+    background-color: rgb(252, 255, 253);
+}
+.e{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.e:hover{
+    background-color: rgb(252, 255, 253);
+}
+.f{
+    display: flex;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.f:hover{
+    background-color: rgb(252, 255, 253);
+}
+.x{
+    padding: 45px;
+    position: absolute;
+    display: flex;
+    margin-top: 55px;
+    display: none;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    box-shadow:5px 5px 100px 5px black;
+}
+.a:hover .x{
+    display: block;
+}
+.b:hover .x{
+    display: block;
+}
+.c:hover .x{
+    display: block;
+}
+.d:hover .x{
+    display: block;
+}
+.e:hover .x{
+    display: block;
+}
+.f:hover .x{
+    display: block;
+}
