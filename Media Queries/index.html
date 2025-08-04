@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            gap: 1%;
+            grid-template-areas: 
+            'block-1 block-1 block-1 block-1'
+            'block-2 block-3 block-3 block-4'
+            'block-2 block-3 block-3 block-4'
+            'block-5 block-5 block-5 block-5';
+            
+        }
+        .block-1{
+            grid-area: block-1;
+            background-color: blue;
+        }
+        .block-2{
+            grid-area: block-2;
+            background-color: brown;
+        }
+        .block-3{
+            grid-area: block-3;
+            background-color: blueviolet;
+        }
+        .block-4{
+            grid-area: block-4;
+            background-color: chartreuse;
+        }
+        .block-5{
+            grid-area: block-5;
+            background-color: darkolivegreen;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Main">
+    <div class="block-1">Header</div>
+    <div class="block-2">Left</div>
+    <div class="block-3">Main</div>
+    <div class="block-4">Right</div>
+    <div class="block-5">Footer</div>
+    </div>
+</body>
+</html>
